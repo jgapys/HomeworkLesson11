@@ -10,7 +10,7 @@ environment:
     title: Logback Home
     active: false
   testSelenium:
-      envName: testSelenium
-      appURL: https://selenium.dev
-      title: Selenium
-      active: true
+    envName: testSelenium
+    appURL: https://selenium.dev
+    title: Selenium
+    active: true

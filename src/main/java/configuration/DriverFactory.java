@@ -18,10 +18,10 @@ public class DriverFactory {
     private WebDriver driver;
     private String browserName;
 
-    public WebDriver getDriver(){
-        this.browserName=System.getProperty("browserName");
+    public WebDriver getDriver() {
+        this.browserName = System.getProperty("browserName");
         logger.info("Chosen browser name: {}", browserName);
-        switch (this.browserName){
+        switch (this.browserName) {
             case "chrome" -> {
                 ChromeOptions chromeOptions = new ChromeOptions();
                 WebDriverManager.chromedriver().setup();
