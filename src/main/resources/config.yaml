@@ -1,0 +1,16 @@
+browser:
+  browserName: chrome
+  headlessBrowser: false
+  webElementTimeOut: 15
+
+environment:
+  testLogback:
+    envName: testLogback
+    appURL: https://logback.qos.ch
+    title: Logback Home
+    active: false
+  testSelenium:
+      envName: testSelenium
+      appURL: https://selenium.dev
+      title: Selenium
+      active: true
